@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main(void){
+	char A[50];
+	char B[50];
+	scanf("%s\n%s",&A,&B);
+	if(strlen(A) > strlen(B)){
+		printf("%s\n",A);
+	}
+	else if(strlen(A) < strlen(B)){
+		printf("%s\n",B);
+	}
+	return 0;
+}
