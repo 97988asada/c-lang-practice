@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main(void){
+	int N,i,min = 101,a;
+	scanf("%d",&N);
+	for(i = 0; i < N; i++){
+		scanf("%d",&a);
+		if(a < min){
+			min = a;
+		}
+	}
+	printf("%d\n",min);
+	return 0;
+}
