@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main(void){
+	int n,s,t,w=0,a,i,d=0;
+	scanf("%d %d %d",&n,&s,&t);
+	for(i=0;i<n;i++){
+		scanf("%d",&a);
+		w=w+a;
+		if(w>=s && t>=w){
+			d=d+1;
+		}
+	}
+	printf("%d\n",d);
+	return 0;
+}

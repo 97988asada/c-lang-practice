@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main(void){
+	int a1,b1,c1;
+	int a2,b2,c2;
+	int kekka1,kekka2,kekka3;
+	scanf("%d %d%d %d%d %d",&a1,&a2,&b1,&b2,&c1,&c2);
+	
+	kekka1 = (int)a1*(a2*0.1);
+	kekka2 = (int)b1*(b2*0.1);
+	kekka3 = (int)c1*(c2*0.1);
+	printf("%d\n",kekka1+kekka2+kekka3);
+}

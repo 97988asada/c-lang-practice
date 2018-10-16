@@ -1,0 +1,9 @@
+#include <stdio.h>
+ 
+int main(void){
+	int a,b;
+	int c = 0;
+	scanf("%d\n%d",&a,&b);
+	a % b != 0 ? printf("%d\n",c = b - a % b) : printf("0\n");
+	return 0;
+}
