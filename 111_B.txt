@@ -1,0 +1,34 @@
+#include <stdio.h>
+ 
+int main(void){
+	int N;
+	scanf("%d",&N);
+	if(99 < N && 111 >= N){
+		printf("111\n");
+	}
+	else if(111 < N && 222 >= N){
+		printf("222\n");
+	}
+	else if(222 < N && 333 >= N){
+		printf("333\n");
+	}
+	else if(333 < N && 444 >= N){
+		printf("444\n");
+	}
+	else if(444 < N && 555 >= N){
+		printf("555\n");
+	}
+	else if(555 < N && 666 >= N){
+		printf("666\n");
+	}
+	else if(666 < N && 777 >= N){
+		printf("777\n");
+	}
+	else if(777 < N && 888 >= N){
+		printf("888\n");
+	}
+	else if(888 < N && 999 >= N){
+		printf("999\n");
+	}
+	return 0;
+}

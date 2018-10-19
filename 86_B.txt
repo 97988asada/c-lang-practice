@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+ 
+int main(void){
+	char a[200],b[200];
+	int num,kekka;
+	scanf("%s %s",&a,&b);
+	strcat(a,b);
+	num = atoi(a);
+	kekka = (int)sqrt(num);
+	if(num % kekka == 0){
+		printf("Yes\n");
+	}
+	else{
+		printf("No\n");
+	}
+	return 0;
+}
